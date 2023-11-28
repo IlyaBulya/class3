@@ -7,6 +7,8 @@ start_time = time.time()
 # generate two big matrices of float32
 a = np.random.rand(10000, 10000).astype(np.float32)
 b = np.random.rand(10000, 10000).astype(np.float32)
+c = np.random.rand(10000, 10000).astype(np.float32)
+d = np.random.rand(10000, 10000).astype(np.float32)
 
 test = np.matmul(a, b)
 
