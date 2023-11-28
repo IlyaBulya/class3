@@ -8,6 +8,7 @@ start_time = time.time()
 a = np.random.rand(10000, 10000).astype(np.float32)
 b = np.random.rand(10000, 10000).astype(np.float32)
 
+
 test = np.matmul(a, b)
 
 print("--- %s seconds ---" % (time.time() - start_time))
